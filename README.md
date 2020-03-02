@@ -1,2 +1,2 @@
-# HomeWork2
+# HomeWork task2
 java basic
