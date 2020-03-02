@@ -45,8 +45,11 @@ public class HomeWork2 {
         System.out.println("decrementation result " + t);
 
         // Divides the left operand by the right operand and returns the remainder
-        System.out.println("b % a = " + (b % a));
-        System.out.println("c % a = " + (c % a));
+        int z = 4;
+        int w = 7;
+        int q = 3;
+        System.out.println("b % a = " + (w % z));
+        System.out.println("c % a = " + (q % z));
 
     }
 }
