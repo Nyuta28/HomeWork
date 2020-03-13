@@ -1,0 +1,41 @@
+public class ClassForHomeWork4 {
+    public  int doMult(int a, int b){
+        int result = a*b;
+        return result;
+    }
+    public  int doMult(int a, int b, int c){
+        int result = a*b*c;
+        return result;
+    }
+
+
+    public  int doSum(int a, int b) {
+        int result = a + b;
+        return result;
+    }
+    public  int doSum(int a, int b, int c) {
+        int result = a + b + c;
+        return result;
+    }
+    
+
+    public static int doDiv(int a, int b){
+        int result = a / b;
+        return result;
+    }
+    public static int doDiv(int a, int b, int c){
+        int result = a / b / c;
+        return result;
+    }
+
+
+
+    public static int doSub(int a, int b) {
+        int result = a - b;
+        return result;
+    }
+    public static int doSub(int a, int b, int c){
+        int result = a - b - c;
+        return result;
+    }
+}
