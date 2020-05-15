@@ -13,8 +13,8 @@ public class HomeWork16 {
     public static WebDriver driver;
     public static String model = "Lenovo";
     public static String name = "Sorry";
-    public static String phone = "931106812";
-    public static String email = "pro11@codecademy.com";
+    public static String phone = "931106818";
+    public static String email = "pro14@codecademy.com";
     public static String xPathNovaPoshtaSelect = "//*[@id=\"order_entity_1\"]/div[4]/div[2]/div[2]/div";
 
 
@@ -49,7 +49,7 @@ public class HomeWork16 {
 
         Thread.sleep(2000);
 
-        driver.findElement(By.id("buy-button-big-1601546598")).click();
+        driver.findElement(By.id("buy-button-big-528242314")).click();
 
         Thread.sleep(4000);
 
