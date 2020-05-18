@@ -49,7 +49,7 @@ public class HomeWork16 {
 
         Thread.sleep(2000);
 
-        driver.findElement(By.id("buy-button-big-528242314")).click();
+        driver.findElement(By.name("buy-button_666264")).click();
 
         Thread.sleep(4000);
 
