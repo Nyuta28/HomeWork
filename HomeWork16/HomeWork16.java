@@ -45,11 +45,11 @@ public class HomeWork16 {
 
         TimeUnit.SECONDS.sleep(5);
 
-        driver.findElement(By.id("label-id-666264")).findElement(By.linkText("Lenovo S5 4/64Gb Black")).click();
+        driver.findElement(By.xpath("//*[@id=\"label-id-666265\"]")).click();
 
         Thread.sleep(2000);
 
-        driver.findElement(By.name("buy-button_666264")).click();
+        driver.findElement(By.name("buy-button_666265")).click();
 
         Thread.sleep(4000);
 
