@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OnTestFailure"  >
+    <listeners>
+        <listener class-name="HomeWork24.TestListeneOnFailure.TestListener"></listener>
+    </listeners>
+
+    <test name="Login Test">
+        <classes>
+
+            <class name="HomeWork24.TestListeneOnFailure.LoginTest"/>
+
+        </classes>
+    </test>
+
+</suite>
+
