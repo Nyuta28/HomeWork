@@ -72,6 +72,15 @@ public class HomeWork20 {
         for(WebElement link: linksFroBlockOfCode){
             System.out.println(link.getText() + " it is url " + link.getAttribute("href"));
         }
+        //Checkboxes
+        driver.get("http://www.tizag.com/htmlT/htmlcheckboxes.php");
+        WebElement blockOfCheckboxes =
+                driver.findElement(By.xpath("/html/body/table[3]/tbody/tr[1]/td[2]/table/tbody/tr/td/div[4]"));
+
+        List<WebElement> checkboxes = blockOfCheckboxes.findElements(By.name("sports"));
+        for(WebElement checkbox: checkboxes){
+            checkbox.click();
+        }
 
 
 
